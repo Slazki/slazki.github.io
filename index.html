@@ -1,84 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Fahad Majidi's Teaching Programming Portfolio for EDS 124BR." />
-  <title>Fahad Majidi | Teaching Programming Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fahad Majidi | Teaching Programming Portfolio</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#111827;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:#2563eb;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:48px;
+margin:0;
+}
+
+header p{
+font-size:20px;
+margin-top:10px;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+color:#60a5fa;
+}
+
+.card{
+background:#1f2937;
+padding:25px;
+border-radius:12px;
+margin-top:20px;
+}
+
+iframe{
+width:100%;
+height:500px;
+border:none;
+border-radius:12px;
+margin-top:20px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+background:#0f172a;
+margin-top:50px;
+}
+</style>
+
 </head>
+
 <body>
-  <header class="hero">
-    <nav class="nav container">
-      <a class="brand" href="#top">Fahad Majidi</a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#reflection">Learning</a>
-      </div>
-    </nav>
 
-    <div id="top" class="hero-content container">
-      <p class="eyebrow">EDS 124BR</p>
-      <h1>Teaching Programming Portfolio</h1>
-      <p class="hero-text">
-        A collection of my programming projects, explanation videos, and reflections on computational thinking.
-      </p>
-      <a class="button" href="#projects">View Projects</a>
-    </div>
-  </header>
+<header>
 
-  <main>
-    <section id="about" class="section container">
-      <p class="section-label">About Me</p>
-      <h2>Learning how to explain computing clearly</h2>
-      <p>
-        Hi, I'm Fahad Majidi, a computer science student at UC San Diego. This portfolio showcases work from EDS 124BR and documents what I learn about programming, computational thinking, and teaching technical ideas in a clear and understandable way.
-      </p>
-    </section>
+<h1>Fahad Majidi</h1>
 
-    <section id="projects" class="section section-alt">
-      <div class="container">
-        <p class="section-label">Projects</p>
-        <h2>Programming Explanation Videos</h2>
+<p>Teaching Programming Portfolio • EDS 124BR</p>
 
-        <article class="project-card">
-          <div class="project-number">01</div>
-          <div class="project-content">
-            <h3>Program Explanation</h3>
-            <p>
-              This project demonstrates my understanding of a program by explaining its purpose and how each part of the code works.
-            </p>
-            <div class="video-placeholder">
-              <span>Video coming soon</span>
-              <small>Upload your video to YouTube, then embed it here.</small>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+</header>
 
-    <section id="reflection" class="section container">
-      <p class="section-label">Learning</p>
-      <h2>Computational Thinking</h2>
-      <div class="reflection-grid">
-        <div class="reflection-card">
-          <h3>Breaking Problems Down</h3>
-          <p>I have learned that complex problems become easier to solve when they are separated into smaller, manageable steps.</p>
-        </div>
-        <div class="reflection-card">
-          <h3>Clear Instructions</h3>
-          <p>I have also learned that instructions need to be specific and ordered correctly because even a small missing step can change the result.</p>
-        </div>
-      </div>
-    </section>
-  </main>
+<section>
 
-  <footer>
-    <div class="container footer-content">
-      <p>Fahad Majidi · Teaching Programming Portfolio</p>
-      <a href="https://github.com/Slazki" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-  </footer>
+<h2>About Me</h2>
+
+<div class="card">
+
+Hi! I'm Fahad Majidi, a Computer Science student at UC San Diego. This portfolio contains my programming projects, explanation videos, and reflections from EDS 124BR as I learn computational thinking and programming.
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Project 1 - House Drawing Program</h2>
+
+<div class="card">
+
+<p>
+The purpose of this program is to draw a house using a sequence of movement commands in Snap!.
+This video explains how each block contributes to creating the final drawing.
+</p>
+
+<iframe src="https://www.youtube.com/embed/2kvS-xI9uiw"
+allowfullscreen></iframe>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Reflection</h2>
+
+<div class="card">
+
+I learned that programs must follow a precise sequence of instructions. Even a small change in the order of commands can completely change the final result.
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Fahad Majidi • UC San Diego
+
+</footer>
+
 </body>
 </html>
